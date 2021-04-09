@@ -1,7 +1,16 @@
+import {useState} from 'react';
+
 const MessageForm = () => {
-    const handleSubmit = (0 => {
+    const [value, setValue] = useState('');
+
+    const handleSubmit = () => {
          
-    })
+    }
+
+    const handleChange = () => {
+
+    }
+
     return (
         <form className="message-form" onSubmit={handleSubmit}>
             <input
