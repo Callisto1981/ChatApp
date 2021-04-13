@@ -16,6 +16,7 @@ const LoginForm = () => {
             localStorage.setItem('username', username);
             localStorage.setItem('password', password);
 
+            window.location.reload()
         } catch (error) {
 
         }
